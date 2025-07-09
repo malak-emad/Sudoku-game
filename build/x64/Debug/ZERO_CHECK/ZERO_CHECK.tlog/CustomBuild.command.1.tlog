@@ -1,0 +1,10 @@
+^C:\USERS\MALAK\DESKTOP\SUDOKU\BUILD\CMAKEFILES\C5D6AF015F58BFC0CB2F2EFE5B3D9931\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SC:/Users/Malak/Desktop/sudoku -BC:/Users/Malak/Desktop/sudoku/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Malak/Desktop/sudoku/build/SudokuGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
