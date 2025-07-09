@@ -1,0 +1,10 @@
+^C:\USERS\MALAK\DESKTOP\SUDOKU\CMAKELISTS.TXT
+setlocal
+D:\Cmake\bin\cmake.exe -SC:/Users/Malak/Desktop/sudoku -BC:/Users/Malak/Desktop/sudoku/build --check-stamp-file C:/Users/Malak/Desktop/sudoku/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

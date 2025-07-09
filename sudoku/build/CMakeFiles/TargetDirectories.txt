@@ -1,0 +1,3 @@
+C:/Users/Malak/Desktop/sudoku/build/CMakeFiles/sudoku.dir
+C:/Users/Malak/Desktop/sudoku/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Malak/Desktop/sudoku/build/CMakeFiles/ZERO_CHECK.dir
